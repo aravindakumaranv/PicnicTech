@@ -1,0 +1,22 @@
+AOP PICNIC TECHNOLOGIES 
+
+This project contains the final submission for the Analytics Project 
+
+The following libraries have been used:
+1. pandas 
+2. matplotlib
+3. gurobipy
+
+We have 5 files namely:
+
+1. Exact.ipynb - which has the implementation of the mathematical model using gurobi 
+2. Approach1.ipynb - which has the ASMH(Adapted silver meal heuristic) with inventory as the construction heuristic and Aggregating Orders as the improvement heursitic. 
+3. Approach2.ipynb - which has the ASMH(Adapted silver meal heuristic) with inventory as the construction heuristic and Aggregating Orders as the improvement heursitic 1 and Carry Forward Orders as improvement heuristic 2. 
+4. Approach3.ipynb - which has the ASMH(Adapted silver meal heuristic  as the construction heuristic and Aggregating Orders as the improvement heursitic 1 and Carry Forward Orders as improvement heuristic 2. 
+5. data_analysis.ipynb - contains all the graphs obatained by data analysis. 
+
+
+In order to run these scripts make sure to have:
+    1. All the libraries mentioned above and 3.11+ version of python installed
+    2. The datasets loaded in the folder called data
+    3. To run a specific instance - make sure to enter the product type (ambient, chilled, frozen), time period (7, 365), storage type (standard, relaxed, constrained), maximum order penalty (0, 1000)
