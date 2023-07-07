@@ -12,7 +12,7 @@ We have 5 files namely:
 1. Exact.ipynb - which has the implementation of the mathematical model using gurobi 
 2. Approach1.ipynb - which has the ASMH(Adapted silver meal heuristic) with inventory as the construction heuristic and Aggregating Orders as the improvement heursitic. 
 3. Approach2.ipynb - which has the ASMH(Adapted silver meal heuristic) with inventory as the construction heuristic and Aggregating Orders as the improvement heursitic 1 and Carry Forward Orders as improvement heuristic 2. 
-4. Approach3.ipynb - which has the ASMH(Adapted silver meal heuristic  as the construction heuristic and Aggregating Orders as the improvement heursitic 1 and Carry Forward Orders as improvement heuristic 2. 
+4. Approach3.ipynb - which has the ASMH(Adapted silver meal heuristic) as the construction heuristic and Aggregating Orders as the improvement heursitic 1 and Carry Forward Orders as improvement heuristic 2. 
 5. data_analysis.ipynb - contains all the graphs obatained by data analysis. 
 
 
